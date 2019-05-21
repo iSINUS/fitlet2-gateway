@@ -1,0 +1,8 @@
+Package: bridgebletomqtt
+Version: 1.0-2
+Section: base
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.5.3), bluez (>= 5.43)
+Maintainer: Siarhei Ivanou <siarhei_ivanou2@epam.com>
+Description: RAVEN PoC BLE to MQTT Bridge

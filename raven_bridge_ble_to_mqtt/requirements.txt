@@ -1,0 +1,6 @@
+aiohttp==3.5.4
+kafka-python==1.4.6
+paho-mqtt==1.4.0
+pexpect==4.7.0
+pygatt==4.0.3
+retrying==1.3.3

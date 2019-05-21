@@ -1,0 +1,13 @@
+[Unit]
+Description=PoC Python Bridge BLEtoMQTT
+Requires=mosquitto.service
+After=mosquitto.service
+
+[Service]
+Type=simple
+Restart=on-failure
+ExecStart=/usr/bin/python3 /opt/raven_bridge_ble_to_mqtt/main.py
+
+[Install]
+WantedBy=multi-user.target
+
